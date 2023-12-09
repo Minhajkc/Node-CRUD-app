@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            background-color: #f8f9fa;
+        }
+
+        #first2 {
+            background-color: purple;
+            margin: 20px;
+            padding: 20px;
+            border-radius: 10px;
+            color: white;
+        }
+
+        h1 {
+            margin-bottom: 30px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="col-12" id="first2">
+            <h1 class="display-3 text-center">Users</h1>
+            <table class="table table-bordered table-dark ">
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Phone</th>
+                        <th>Age</th>
+                        <th>Email</th>
+                        <th>Delete</th>
+                        <th>Edit</th>
+                    </tr>
+                   
+                   
+                    <p>{{%content}}<p>
+                </thead>
+                <tbody>
+                
+                </tbody>
+            </table>
+<form action="/form" method="get">
+    <button type="submit" class="btn btn-warning ">ADD A USER</button>
+</form>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
